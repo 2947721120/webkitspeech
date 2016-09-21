@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
+		<script src="https://cdnjs.c2cbc.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
 		<title>Testjavascript</title>
 	</head>
 	<body>
@@ -13,7 +13,7 @@
 					<span id="interim_span" class="interim"></span>
 				</div>
 				<img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" />
-				<button onclick="stopspeak()" >stop</button>
+				<button onclick="stopspeak()" >停止</button>
 			</div>
 		</form>
 		<script type="text/javascript">
@@ -45,7 +45,7 @@
 			interim_span.innerHTML = linebreak(interim_transcript);
 			console.log(final_transcript)
 			console.log (final_span)
-			//algorithem loop you think
+			//你认为算法循环
 			//console.log(event.results[0][0].transcript);
 			if (stop === true) {
 				recognition.stop();
@@ -72,6 +72,6 @@
 			}
 		</script>
 		
-		<h1>test</h1>
+		<h1>测试</h1>
 	</body>
 </html>
